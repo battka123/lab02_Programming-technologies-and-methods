@@ -12,7 +12,7 @@ git init
 git config —global user.name battka123
 git config —global user.email i.suschin@yandex.ru
 git config -e —global (^X для выхода) // Проверить конфиг
-it remote add origin https://github.com/battka123/lab02_Programming-technologies-and-methods-.git
+git remote add origin https://github.com/battka123/lab02_Programming-technologies-and-methods-.git
 touch README.md
 git status
 git add README.md
