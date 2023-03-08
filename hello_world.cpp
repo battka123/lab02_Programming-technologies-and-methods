@@ -1,9 +1,12 @@
 #include <iostream>
 #include <string>
-int main(){
+//comment
+int
+main()
+{
   std::string name;
-  std::cout<<"Input your name: ";
-  std::cin>>name;
-  std::cout<<"Hello world from "<<name<<"!\n";
+  std::cout << "Input your name: ";
+  std::cin >> name;
+  std::cout << "Hello world from " << name << "!\n";
   return 0;
 }
