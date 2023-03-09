@@ -90,6 +90,6 @@ git log (чтобы проверить)
 Через `git pull --rebase origin main` понял, что точно ошибка. Исправлял её:
 `git add -A`,
 `git rebase --continue`.
-Сделал ` force-push git push --force push origin patch2`.
+Сделал force-push `git push --force push origin patch2`.
 Через `git pull --rebase origin main` убедился, что не ругается. И вмержил пулл реквест.
 
